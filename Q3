@@ -5,7 +5,7 @@ struct library {
     char author[100];
     char subject[100];
     int book_id;
-};
+}
 
 int main() {
     struct library bookList[5]; // Array of structures to store details of five books
